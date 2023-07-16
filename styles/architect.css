@@ -3,6 +3,7 @@
 
 /* shared styled */
 * {
+    margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -29,7 +30,7 @@
 
 /* header styles */
 header {
-    background: rgba(255, 144, 14, 0.10);
+    background: rgba(255, 143, 14, 0.164);
     padding: 50px 240px;
 }
 
@@ -185,6 +186,15 @@ padding: 30px;
 .sponsor-img-container img{
     width: 156px;
 }
+/* footer style */
+footer{
+    padding: 30px;
+    border-radius: 8px;
+    background: #fa64ff85;
+    width: 70%;
+    margin:50px auto;
+    text-align: center;
+}
 
 /* responsive styles */
 /* mobile devices */
@@ -199,7 +209,7 @@ padding: 30px;
 
     }
     .feature-img img{
-        width: 100%;
+        width: 95%;
         margin-left: 0;
 
     }
@@ -218,8 +228,11 @@ padding: 30px;
         padding-left: 20px;
     }
     .facts-card-container{
-        gap: 20px;
+        gap: 10px;
         padding: 10px;
+    }
+    footer{
+        max-width: 300px;
     }
 }
 
